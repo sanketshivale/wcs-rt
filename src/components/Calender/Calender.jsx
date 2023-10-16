@@ -63,9 +63,7 @@ const Calendar = () => {
     }, []);
 
     return (
-        <div>
-            <h1 className="text-2xl font-semibold text-center">WordCamp Schedule Calendar Viewer</h1>
-
+        <div className="mt-5">
             <FullCalendar
                 plugins={[dayGridPlugin]}
                 initialView="dayGridMonth"

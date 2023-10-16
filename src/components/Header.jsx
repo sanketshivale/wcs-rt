@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -6,9 +7,10 @@ function Header() {
       <nav className="mt-2">
         <ul className="flex space-x-4 text-white items-center">
           <h1 className="text-2xl font-semibold">WordCamp Schedule Calendar Viewer</h1>
-          <li><a href="/" className="hover:underline">Home</a></li>
-          <li><a href="/about" className="hover:underline ">About</a></li>
-          <li><a href="/contact" className="hover:underline ">Contact</a></li>
+          
+          <li><Link to="/" className="hover:underline">Calender View</Link></li>
+          <li><Link to="/map" className="hover:underline">Map View</Link></li>
+          <li><Link to="/about" className="hover:underline">About</Link></li>
         </ul>
       </nav>
     </header>

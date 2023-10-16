@@ -1,16 +1,21 @@
 import React from "react";
 import './app.css';
-import Header from "./components/Header";
-import Calender from "./components/Calender/Calender";
+import Home from "./pages/Home";
+import {Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Map from "./pages/MapView";
 
-const App = () =>{
+const App = () => {
+
+
     return (
-        <>
-        <Header />
-        <Calender />
+      
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/map" element={<Map />} />
+                </Routes>
 
-        </>
-       
+            </Router>
     )
 }
 
