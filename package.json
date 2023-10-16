@@ -1,7 +1,7 @@
 {
   "name": "wcs-rt",
   "version": "1.0.0",
-  "homepage": "https://sanketshivale.github.io/wcs-rt/",
+  "homepage": "https://sanketshivale.github.io/wcs-rt/#",
   "description": "Please create a React App which fetches data using WP REST API using WordCamp Central site. The lack of links to WP REST API documentation is on purpose. You should be able to find your way to documentation and a bit of how WordPress works (hint: custom post type).",
   "main": "index.js",
   "scripts": {

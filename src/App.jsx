@@ -1,7 +1,7 @@
 import React from "react";
 import './app.css';
 import Home from "./pages/Home";
-import {Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import {Route, HashRouter as Router, Routes } from "react-router-dom";
 import Map from "./pages/MapView";
 
 const App = () => {
@@ -11,8 +11,9 @@ const App = () => {
       
             <Router>
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route index path="/" element={<Home />} />
                     <Route path="/map" element={<Map />} />
+
                 </Routes>
 
             </Router>
