@@ -9,7 +9,6 @@ function Header() {
           <h1 className="text-2xl font-semibold">WordCamp Schedule Calendar Viewer</h1>
           
           <li><Link to="/" className="hover:underline">Calender View</Link></li>
-          <li><Link to="/map" className="hover:underline">Map View</Link></li>
           <li><Link to="/about" className="hover:underline">About</Link></li>
         </ul>
       </nav>
