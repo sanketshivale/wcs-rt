@@ -13,3 +13,25 @@ Your app will be view only as there is no write operation.
 For design as in UI/UX, be imaginative.
 
 For CSS feel free to use frameworks.
+
+### Installation process
+
+``` git clone https://github.com/sanketshivale/wcs-rt.git ```
+
+Enter the Project Directory
+
+``` cd wsc-rt ```
+
+Install all npm dependency
+
+``` npm install ```
+
+Build your wcs-rt Web App using Webpack using following Command
+
+``` npm run build ```
+
+Start your wcs-rt Web application
+
+``` npm start ```
+
+
