@@ -1,0 +1,15 @@
+.fc-event {
+    background-color: #007bff;
+    color: aliceblue;
+}
+
+.fc-event:hover {
+    background-color: #0069d9;
+    color: aliceblue;
+}
+
+.fc-event-title {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }

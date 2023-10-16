@@ -1,11 +1,16 @@
 import React from "react";
 import './app.css';
+import Header from "./components/Header";
+import Calender from "./components/Calender/Calender";
 
 const App = () =>{
     return (
-        <h1 className="text-primary text-4xl font-bold">
-            Hello world! This Code is for Rtcamp Assignment for Reactjs
-        </h1>
+        <>
+        <Header />
+        <Calender />
+
+        </>
+       
     )
 }
 
